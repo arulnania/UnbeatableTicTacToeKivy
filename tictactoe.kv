@@ -1,0 +1,79 @@
+MDFloatLayout:
+
+    MDGridLayout:
+        size_hint: .5, .5
+        pos_hint: {'center_x': .5, 'center_y': .7}
+        cols: 3
+        rows: 3
+
+        Button:
+            id: btn1
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn1)
+
+        Button:
+            id: btn2
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn2)
+
+        Button:
+            id: btn3
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn3)
+
+        Button:
+            id: btn4
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn4)
+
+        Button:
+            id: btn5
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn5)
+
+        Button:
+            id: btn6
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn6)
+
+        Button:
+            id: btn7
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn7)
+
+        Button:
+            id: btn8
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn8)
+
+        Button:
+            id: btn9
+            text: ""
+            font_size: "45sp"
+            on_release: app.pressed(btn9)
+
+
+    MDLabel:
+        id: score
+        font_size: "32sp"
+        text: "Try to win against me!"
+        halign: "center"
+        pos_hint: {"center_y": .3}
+
+    MDRaisedButton:
+        id:restart
+        text: "Restart the game"
+        pos_hint: {'center_x' : .5, 'center_y': .1}
+        on_release: app.restart()
+
+
+
+
